@@ -118,7 +118,7 @@
                 const formData = new FormData();
                 formData.append('ragTag', ragTag);
                 Array.from(files).forEach(file => {
-                    formData.append('files', file);
+                    formData.append('file', file);
                 });
 
                 const response = await fetch('http://localhost:8090/api/v1/rag/file/upload', {

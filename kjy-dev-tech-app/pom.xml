@@ -86,7 +86,7 @@
     </dependencies>
 
     <build>
-        <finalName>kjy-dev-tech-app</finalName>
+        <finalName>ai-rag-knowledge-app</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
